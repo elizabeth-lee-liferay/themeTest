@@ -1,0 +1,52 @@
+  //HEADER/NAVBAR
+  header {
+    //Change the navbar color to be transparent
+    background-color: rgba(black,0) ;
+    position: fixed;
+    //Brings the navbar to the front
+    z-index: 1;
+    width: 100vw;
+    max-width: 100%;
+
+    .lunar-user a {
+        color: $lunar-resort-link-teal;
+    }
+
+    .user-avatar-link .lexicon-icon {
+      color: $lunar-resort-blue;
+    }
+
+    li.nav-item {
+      & a.nav-link span {
+        font-size: 1.5em;
+      }
+
+      &:hover ul.child-menu {
+        background-color: $lunar-resort-blue;
+        display: block;
+        margin-top: -10px;
+      }
+
+      &.selected {
+        background-color: $white;
+        height: 73px;
+        & a.nav-link {
+          color: $lunar-resort-blue;
+          font-weight: bold;
+          &:hover {
+            color: $lunar-resort-blue;
+            font-weight: normal;
+            padding-left: 9.619px;
+            padding-right: 9.619px;
+          }
+        }
+      }
+
+      @include media-breakpoint-down(sm){
+        ul.child-menu {
+          display: block;
+        }
+      }    
+    }
+  }
+

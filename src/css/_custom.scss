@@ -6,8 +6,12 @@
 
 /* This file allows you to override default styles in one central location for easier upgrade and maintenance. */
 @import 'colors';
+@import 'header/navigation.scss';
+@import 'footer/footer.scss';
+@import 'welcome_page/welcome_page.scss';
 
 body {
+  //BUTTONS
   a.btn-orange {
     background-color: $lunar-resort-orange;
     margin-right: 5px;
@@ -20,131 +24,49 @@ body {
       width: 100%;
     }
   }
-  // Creates a clear, outlined button?
-  .button {
+  // Creates a clear, outlined button
+  a.button-beige{
     display: inline-block;
     padding: 6px 10px;
-    color: #cafaea;
-    border: 1px solid #cafaea;
+    color:$theme-main-beige;
+    border: 1px solid $theme-main-beige;
     border-radius: 3px;
     font-weight: 700;
     line-height: normal;
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
-  }
-
-  header {
-    //Change the navbar color to be transparent
-    background-color: rgba(black,0) ;
-    position: fixed;
-
-    .lunar-user a {
-        color: $lunar-resort-link-teal;
-    }
-
-    .user-avatar-link .lexicon-icon {
-      color: $lunar-resort-blue;
-    }
-
-    li.nav-item {
-      & a.nav-link span {
-        font-size: 1.5em;
-      }
-
-      &:hover ul.child-menu {
-        background-color: $lunar-resort-blue;
-        display: block;
-        margin-top: -10px;
-      }
-
-      &.selected {
-        background-color: $white;
-        height: 73px;
-        & a.nav-link {
-          color: $lunar-resort-blue;
-          font-weight: bold;
-          &:hover {
-            color: $lunar-resort-blue;
-            font-weight: normal;
-            padding-left: 9.619px;
-            padding-right: 9.619px;
-          }
-        }
-      }
-
-      @include media-breakpoint-down(sm){
-        ul.child-menu {
-          display: block;
-        }
-      }    
+    
+    &:hover{
+      text-decoration-color: $theme-main-beige;
     }
   }
-  #footer {
-    background-color: $lunar-resort-blue;
-    color: $white;
-    ul {
-      margin-left: auto;
-      margin-right: auto;
 
-      &.navbar-nav {
-        width: 410px;
-        .nav-item.hover:after {
-          width: auto;
-        }
-  
-        a {
-          color: $white;
-          @include media-breakpoint-down(sm) {
-            padding-left: 6px;
-            padding-right: 6px;
-          }
-        }
-      }
-    }
-  
-    #socialMediaWrapper ul {
-      width: 192px;
-  
-      li a {
-        font-size: 2rem;
-      }
-    }
-  
-    p.powered-by a, .contact-info-container a {
-        color: $lunar-resort-link-teal;
-    }
-  
-  }
-  
   &.has-control-menu {
-      header {
-        margin-top: 0px; 
-        //margin-top: 56px; Original code
-        @include media-breakpoint-down(sm){
-          margin-top: 48px;
-        }  
-      }
-    } 
+    header {
+      margin-top: 0px; 
+      //margin-top: 56px; Original code
+      @include media-breakpoint-down(sm){
+        margin-top: 48px;
+      }  
+    }
+  }
+  
+  
 
-  /* Location of the image */
+
+  //RESPONSIVE BACKGROUND
   background-image: url(../images/main-background.jpg);
-  
-  /* Background image is centered vertically and horizontally at all times */
-  background-position: center center;
+  background-position: center center;   //Background image is centered vertically and horizontally at all times
+  background-repeat: no-repeat;   //Image doesn't repeat into tile formation
+  background-attachment: fixed; //Fixes the image in the viewport so that it doesn't move when the content height is greater than the image height
+  background-size: cover; //makes the background image rescale based on its container's size
+  background-color:#464646;  //Solid background color that will display while image is loading or if image is not working
 
-  /* Image doesn't repeat */
-  background-repeat: no-repeat;
-  
-  /* Makes the image fixed in the viewport so that it doesn't move when 
-      the content height is greater than the image height */
-  background-attachment: fixed;
-  
-  /* This is what makes the background image rescale based on its container's size */
-  background-size: cover;
-  
-  /* Pick a solid background color that will be displayed while the background image is loading */
-  background-color:#464646;  
+
+
+
+
 
 }
   
