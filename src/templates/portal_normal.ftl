@@ -10,7 +10,7 @@
 	<meta content="initial-scale=1.0, width=device-width" name="viewport" />
 
 	<@liferay_util["include"] page=top_head_include />
-	<link rel="stylesheet" href="../css/background.scss">
+
 </head>
 
 <body class="${css_class}">
@@ -51,6 +51,8 @@
 
 <div class="container-fluid mt-0 pt-0 px-0" id="wrapper">
 	<section id="content">
+	<#--  WELCOME PAGE   -->
+		<#include "${full_templates_path}/welcome_page.ftl" />
 		<h2 class="hide-accessible" role="heading" aria-level="1">${the_title}</h2>
 
 		<#if selectable>

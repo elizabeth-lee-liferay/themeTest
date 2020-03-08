@@ -1,0 +1,9 @@
+// WELCOME PAGE CSS
+.welcome_container{
+    background-color: $theme-main-transparent;//Allows the background of the welcome page to be transparent
+    // background-color: rgba(black,0);//Allows the background of the welcome page to be transparent
+    margin-top: 0; //Allows the welcome_container to be below the navigation bar
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+  }
