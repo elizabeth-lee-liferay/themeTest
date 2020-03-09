@@ -1,9 +1,38 @@
-// WELCOME PAGE CSS
+// // // WELCOME PAGE CSS
+
+// .welcome_container{
+//   display: block;
+//   color: white;
+//   width: 100vw;
+//   height: 100vh;
+//   text-align: center;
+// }
+
+// .description_container{
+//   display: inline-block;
+//   width:40em;
+//   text-align: center;
+// }
+
+// // WELCOME PAGE CSS
+
 .welcome_container{
-    background-color: $theme-main-transparent;//Allows the background of the welcome page to be transparent
-    // background-color: rgba(black,0);//Allows the background of the welcome page to be transparent
-    margin-top: 0; //Allows the welcome_container to be below the navigation bar
-    height: 100vh;
-    width: 100vw;
-    max-width: 100%;
-  }
+  display: block;
+  // display:table;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  padding: 15% 0;
+}
+
+.description_container{
+  display: block;
+  // display: table-cell;
+  // vertical-align: middle;
+  width:40em;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
