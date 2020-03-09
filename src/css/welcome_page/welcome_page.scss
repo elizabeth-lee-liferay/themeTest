@@ -18,12 +18,16 @@
 
 .welcome_container{
   display: block;
-  // display:table;
   color: white;
   width: 100vw;
   height: 100vh;
   text-align: center;
-  padding: 15% 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
 }
 
 .description_container{
