@@ -1,27 +1,25 @@
+<#--  
+<div class="welcome_container">
+  <div class="row align-items-center">
+    <h2 class="welcome_heading">
+      <span class="text-primary">Cafe</span> / Restaurant
+    </h2>
+
+  	<a aria-controls="book-now" class="btn text-white button-beige order-md-2">
+		  <p class="book-now-text mb-0">MAKE RESERVATION</p>
+	  </a>
+
+  </div>
+</div>  -->
 
 <div class="welcome_container">
-<p>
-    Hello<br>
-    Goodbye<br>
-    Wello<br>
-</p>
-
-	<a aria-controls="book-now" class="btn text-white button-beige order-md-2">
-		<p class="book-now-text mb-0">Book Now</p>
-	</a>
-  <#--  <div class="card">
-    <img src="//unsplash.it/400/400" alt="" class="card__img">
-    <div class="card__text">
-      <h3 class="card__title">Card title</h3>
-      <p class="card__body">And here is some text</p>
+    <h3>CAFE/RESTAURANT</h3>
+    <h1>HAMBURGUES</h1>
+    <div class="description_container">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non illo, alias animi iusto neque, sint corrupti? Laudantium, dignissimos id excepturi facilis, facere saepe quasi placeat praesentium ipsa sapiente illo molestiae?</p>
     </div>
-      
-    </div>
-  <div class="card">
-    <img src="//unsplash.it/401/401" alt="" class="card__img">
-    <div class="card__text">
-      <h3 class="card__title">Card title</h3>
-      <p class="card__body">And here is some text</p>
-    </div>
-    </div>  -->
+  	<a aria-controls="book-now" class="btn text-white button-beige order-md-2">
+		  <p class="book-now-text mb-0">MAKE RESERVATION</p>
+	  </a>
 </div>
+  
