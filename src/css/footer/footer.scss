@@ -1,6 +1,6 @@
 //FOOTER
 #footer {
-    background-color: $lunar-resort-blue;
+    background-color: black;
     color: $white;
     ul {
       margin-left: auto;
@@ -33,5 +33,8 @@
     p.powered-by a, .contact-info-container a {
         color: $lunar-resort-link-teal;
     }
-
   }
+
+.theme-color-text{
+  color:$theme-main-beige;
+}

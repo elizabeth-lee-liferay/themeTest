@@ -75,7 +75,7 @@
     <div class="row">
       <#-- FOOTER - About Us Section -->
       <div class="col-sm-4">
-        <h5 class="section_footer_heading">About Us</h5>
+        <h5 class="section_footer_heading"><span class="theme-color-text">About Us</span></h5>
         <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti dolorum, 
         sint corporis nostrum, possimus unde eos vitae eius quasi saepe.
@@ -83,7 +83,7 @@
       </div>
       <#--  FOOTER - Contact Info Section  -->
       <div class="col-sm-4">
-        <h5 class="section_footer_heading">Contact Info</h5>
+        <h5 class="section_footer_heading"><span class="theme-color-text">Contact Info</span></h5>
           <div id="contact">
             <ul class="nav flex-column mx-auto">
                 <li class="mx-2">
@@ -108,7 +108,7 @@
       </div>
       <#--  FOOTER - Opening Hours section  -->
       <div class="col-sm-4">
-        <h5 class="section_footer_heading">Opening Hours</h5>
+        <h5 class="section_footer_heading"><span class="theme-color-text">Opening Hours</span></h5>
         <p>
           Monday-Thursday<br>
           10:00 AM - 11:00 PM <br>
