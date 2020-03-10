@@ -19,9 +19,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non illo, alias animi iusto neque, sint corrupti? Laudantium, dignissimos id excepturi facilis, facere saepe quasi placeat praesentium ipsa sapiente illo molestiae?</p>
     </div>
     <button class="button-beige" type="button">MAKE RESERVATION</button>
-  	<#--  <a aria-controls="book-now" class="btn text-white button-beige order-md-2">
-		  <p class="book-now-text mb-0">MAKE RESERVATION</p>
-	  </a>  -->
+
 </div>
   
 
